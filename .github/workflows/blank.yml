@@ -11,5 +11,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          date
-          uname -a
+          cd /usr/local/www/ && git pull git@github.com:wishxam/wishxam.github.io.git master:master
